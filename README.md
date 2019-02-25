@@ -4,7 +4,7 @@
 Let's look closely at one of the DID Use Cases.  Specifically, the second one,
 [7.2 Life-long, recipient-managed Credentials (education)](https://w3c-ccg.github.io/did-use-cases/#life-long-recipient-managed-credentials-education).
 
-We can simplify it to this simple scenario, consisting of two steps:
+We can reduce it to this simple scenario, consisting of two steps:
 
 1. At time T1, Alice (A) graduates from University of Barcelona (B) 
 2. At time T2, Alice attempts to convince Victor (V) of that fact.
@@ -23,9 +23,9 @@ occur like:
 * A moves to another country obtains entirely different legal identity documents
 * A changes her name
 * B discovers A cheated on exams and recinds A's diploma
-* Mallory, a close associates of A, with technical sophistication and co-conspirators, wants to impersonate A to V.
+* Various attacks, potentially involving people somewhat trusted by A, B, and/or V.
 
-### Conventional Solution
+### Conventional Solution (Baseline)
 
 Here's how one might do this without DID technology, for contrast.
 
